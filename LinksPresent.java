@@ -44,6 +44,7 @@ public class LinksPresent {
 		        System.out.println("***");
 		        List <WebElement> buttons = driver.findElements(By.xpath("//input[@type='submit']"));
 		        System.out.println("NUMBER OF BUTTONS="+buttons.size());
+			    System.out.println("********************");
 		    }
 		    }
 		    catch (Exception e) {
