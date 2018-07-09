@@ -31,6 +31,6 @@ public class AboutUs {
 		jse.executeScript("window.scrollBy(0,-500)", "");
 		Thread.sleep(1000);
 		
-	
+	System.out.println("*************");
 	}
 }
